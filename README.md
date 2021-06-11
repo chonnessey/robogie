@@ -54,7 +54,7 @@ Expected Output: `["0", "Beep!", "Boop!", "Won't you be my neighbor?"]`
 
 ## Known Bugs :bug:
 
-* _No Known Bugs._ 
+* _Reverse button doesn't work to reverse array yet. Still working on functionality for that._ 
 
 ## License :guardsman:
 
