@@ -30,9 +30,8 @@ $(document).ready(function() {
     let robogerArray = roboBop(userNumber)
     
     $("#result").text(robogerArray);
-  })
-  $("#reverse").click(function() {
-    let reverseBop = robogerArray.reverse();
-    $("#reverse-result").text(reverseBop)
+    $("#reverse").click(function() {
+      robogerArray.reverse();
+    })
   })
 })
