@@ -6,12 +6,12 @@ function roboBop(number) {
   for (let i = 0; i <= number; i++) {
     const index = [i].toString();
     robogerArray.push(index)
-    if(index.includes("1")) {
-      robogerArray.splice(i, 1, "Beep!")
+    if(index.includes("3")) {
+      robogerArray.splice(i, 1, "Won't you be my neighbor?")
     } else if(index.includes("2")) {
       robogerArray.splice(i, 1, "Boop!")
-    } else if(index.includes("3")) {
-      robogerArray.splice(i, 1, "Won't you be my neighbor?")
+    } else if(index.includes("1")) {
+      robogerArray.splice(i, 1, "Beep!")
     }
   }
   console.log(robogerArray)
