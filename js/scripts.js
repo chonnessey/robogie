@@ -8,8 +8,11 @@ function roboBop(number) {
     robogerArray.push(index)
     if(index.includes("1")) {
       robogerArray.splice(i, 1, "Beep!")
+    } else if(index.includes("2")) {
+      robogerArray.splice(i, 1, "Boop!")
     }
   }
+  console.log(robogerArray)
 }
 
 // UI Logic
