@@ -1,5 +1,6 @@
 // Business Logic
 
+
 function roboBop(number) {
   let robogerArray = [];
   for (let i = 0; i <= number; i++) {
@@ -18,4 +19,20 @@ function roboBop(number) {
   return robogerArray;
 }
 
+
+
 // UI Logic
+
+$(document).ready(function() {
+  $("#roboger").submit(function(event) {
+    event.preventDefault();
+    const userNumber = $("#input").val();
+    let robogerArray = roboBop(userNumber)
+    
+    $("#result").text(robogerArray);
+  })
+  $("#reverse").click(function() {
+    let reverseBop = robogerArray.reverse();
+    $("#reverse-result").text(reverseBop)
+  })
+})
