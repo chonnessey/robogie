@@ -4,6 +4,15 @@
   color: #FFEDC7;
 }
 
+#rogers {
+  height: auto;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
 h1 {
   text-decoration: underline;
 }

@@ -30,6 +30,7 @@ $(document).ready(function() {
     let robogerArray = roboBop(userNumber)
     
     $("#result").text(robogerArray);
+    $("#rogers").fadeIn();
     $("#reverse").click(function() {
       robogerArray.reverse();
     })
