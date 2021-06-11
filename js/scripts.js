@@ -2,7 +2,6 @@
 
 function roboBop(number) {
   let robogerArray = [];
-  // const inputNumber = number.split(' ');
   for (let i = 0; i <= number; i++) {
     const index = [i].toString();
     robogerArray.push(index)
@@ -12,9 +11,11 @@ function roboBop(number) {
       robogerArray.splice(i, 1, "Boop!")
     } else if(index.includes("1")) {
       robogerArray.splice(i, 1, "Beep!")
+    } else {
+      robogerArray[i]
     }
   }
-  console.log(robogerArray)
+  return robogerArray;
 }
 
 // UI Logic
