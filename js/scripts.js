@@ -10,6 +10,8 @@ function roboBop(number) {
       robogerArray.splice(i, 1, "Beep!")
     } else if(index.includes("2")) {
       robogerArray.splice(i, 1, "Boop!")
+    } else if(index.includes("3")) {
+      robogerArray.splice(i, 1, "Won't you be my neighbor?")
     }
   }
   console.log(robogerArray)

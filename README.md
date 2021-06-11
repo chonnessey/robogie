@@ -15,3 +15,7 @@ Expected Output: ["0", "Beep!", "2", "3"]
 Test: "It should return an array with "Boop!" in place of numbers that include "2"
 Code: roboBop("3")
 Expected Output: ["0", "Beep!", "Boop!", "3"]
+
+Test: "It should return an array with "Boop!" in place of numbers that include "2"
+Code: roboBop("3")
+Expected Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?"]
